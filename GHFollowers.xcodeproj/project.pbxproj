@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F3525B5257275ED0071D99D /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3525B4257275ED0071D99D /* GFButton.swift */; };
+		9F3525BA25727FF80071D99D /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3525B925727FF80071D99D /* GFTextField.swift */; };
+		9F3525BF2573FCB30071D99D /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3525BE2573FCB30071D99D /* FollowerListVC.swift */; };
 		9F36E65D256669A70022D24F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F36E65C256669A70022D24F /* AppDelegate.swift */; };
 		9F36E65F256669A70022D24F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F36E65E256669A70022D24F /* SceneDelegate.swift */; };
-		9F36E661256669A70022D24F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F36E660256669A70022D24F /* ViewController.swift */; };
 		9F36E666256669A80022D24F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F36E665256669A80022D24F /* Assets.xcassets */; };
 		9F36E669256669A80022D24F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F36E667256669A80022D24F /* LaunchScreen.storyboard */; };
 		9F36E674256669A80022D24F /* GHFollowersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F36E673256669A80022D24F /* GHFollowersTests.swift */; };
 		9F36E67F256669A80022D24F /* GHFollowersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F36E67E256669A80022D24F /* GHFollowersUITests.swift */; };
+		9F36E69C2566CB5C0022D24F /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F36E69B2566CB5C0022D24F /* SearchVC.swift */; };
+		9F36E6A12566CB860022D24F /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F36E6A02566CB860022D24F /* FavoritesListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F3525B4257275ED0071D99D /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
+		9F3525B925727FF80071D99D /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
+		9F3525BE2573FCB30071D99D /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 		9F36E659256669A70022D24F /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F36E65C256669A70022D24F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F36E65E256669A70022D24F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9F36E660256669A70022D24F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9F36E665256669A80022D24F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F36E668256669A80022D24F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F36E66A256669A80022D24F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +53,8 @@
 		9F36E67A256669A80022D24F /* GHFollowersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GHFollowersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F36E67E256669A80022D24F /* GHFollowersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFollowersUITests.swift; sourceTree = "<group>"; };
 		9F36E680256669A80022D24F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F36E69B2566CB5C0022D24F /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		9F36E6A02566CB860022D24F /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +107,14 @@
 			children = (
 				9F36E65C256669A70022D24F /* AppDelegate.swift */,
 				9F36E65E256669A70022D24F /* SceneDelegate.swift */,
-				9F36E660256669A70022D24F /* ViewController.swift */,
 				9F36E665256669A80022D24F /* Assets.xcassets */,
 				9F36E667256669A80022D24F /* LaunchScreen.storyboard */,
 				9F36E66A256669A80022D24F /* Info.plist */,
+				9F36E69B2566CB5C0022D24F /* SearchVC.swift */,
+				9F36E6A02566CB860022D24F /* FavoritesListVC.swift */,
+				9F3525B4257275ED0071D99D /* GFButton.swift */,
+				9F3525B925727FF80071D99D /* GFTextField.swift */,
+				9F3525BE2573FCB30071D99D /* FollowerListVC.swift */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
@@ -254,7 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F36E661256669A70022D24F /* ViewController.swift in Sources */,
+				9F3525BA25727FF80071D99D /* GFTextField.swift in Sources */,
+				9F36E6A12566CB860022D24F /* FavoritesListVC.swift in Sources */,
+				9F3525B5257275ED0071D99D /* GFButton.swift in Sources */,
+				9F36E69C2566CB5C0022D24F /* SearchVC.swift in Sources */,
+				9F3525BF2573FCB30071D99D /* FollowerListVC.swift in Sources */,
 				9F36E65D256669A70022D24F /* AppDelegate.swift in Sources */,
 				9F36E65F256669A70022D24F /* SceneDelegate.swift in Sources */,
 			);
